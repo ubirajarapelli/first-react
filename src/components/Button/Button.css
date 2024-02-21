@@ -1,0 +1,20 @@
+.button {
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 1px solid darkgray;
+  border-radius: 8px;
+}
+
+.success {
+  border-color: darkcyan;
+  background-color: lightseagreen;
+}
+
+.success:hover {
+  background-color: cadetblue;
+}
+
+.danger {
+  border-color: darkred;
+  background-color: firebrick;
+}

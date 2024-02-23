@@ -1,6 +1,7 @@
-import { Card } from "./components/Card/Card";
-import { Button } from "./components/Button/Button";
-import { ListItem } from "./components/ListItem/ListItem";
+// import { Card } from "./components/Card/Card";
+// import { Button } from "./components/Button/Button";
+// import { ListItem } from "./components/ListItem/ListItem";
+import { Form } from "./components/Form/Form";
 
 function App() {
   const fruits = [
@@ -11,21 +12,7 @@ function App() {
 
   return (
     <>
-      <Card>
-        <h1>Hello World 1TDSPR</h1>
-      </Card>
-      <Card>
-        <h2>React</h2>
-      </Card>
-      <div>
-        <p>Texto</p>
-        <Button>Abrir</Button>
-        <Button variant="success">Adicionar</Button>
-        <Button variant="danger">Remover</Button>
-      </div>
-      {fruits.map((fruit) => (
-        <ListItem key={fruit.name} name={fruit.name} value={fruit.value} />
-      ))}
+      <Form />
     </>
   );
 }
